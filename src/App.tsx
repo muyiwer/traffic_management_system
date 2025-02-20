@@ -1,10 +1,8 @@
-import { AdminLayout } from "@/components/Layout";
+import { AppRoutes } from "@/routes";
 
 function App() {
   return (
-    <AdminLayout>
-      <div>ddddddd</div>
-    </AdminLayout>
+    <AppRoutes/>
   );
 }
 
